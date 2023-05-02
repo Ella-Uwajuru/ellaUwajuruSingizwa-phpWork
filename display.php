@@ -63,9 +63,19 @@ table, td{
         .add-btn:hover{
             background-color: rgb(185, 185, 220);
         }
+        .print{
+            font-size: 20px;
+            padding:10px;
+            border-radius: 5px;
+            background-color: lightgrey;
+            position: relative;
+            left: 90%;
+            top: 5vh;
+        }
     </style>
 </head>
-<body  onload="print()">
+<body >
+<button onclick="print()" class="print">PRINT PAGE</button>
     <div class="container">
         <button class="add-btn"><a href="user.php">Add Student</a></button>
        <table>
